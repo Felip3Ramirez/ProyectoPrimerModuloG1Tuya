@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrandose</title>
+    <link rel="stylesheet" href="../public/css/register.css">
+
+</head>
+
+<body>
+    <div id="contenedorRegistro" class="contenedorRegistro">
+        <form id="formulario-register">
+            <h2>Registrarse</h2>
+            <input type="text" placeholder="Nombre Usuario" id="register-usuario">
+            <input type="email" placeholder="Correo Electronico" id="register-correo">
+            <input type="password" placeholder="Contraseña" id="register-contrasena">
+            <input type="password" placeholder="Confirmar contraseña" id="register-confirmar-contrasena">
+            <div class="botones">
+                <button id="crearCuenta">Crear cuenta</button>
+                <!-- <button id="iniciarSesion" onclick="window.location.href='Login.html'">Inicie sesión</button> -->
+                <a id="iniciarSesion" href="/views/pages/Login.html">Iniciar Sesion</a>
+                <!-- <button id="cerrarModal" onclick="window.location.href='/index.html'">Cerrar</button> -->
+                <a id="cerrarModal" href="/Index.html">Cerrar</a>
+            </div>
+        </form>
+    </div>
+    <img src="/views/public/img/inicioRegistroFondo.jpg" class="imagenRegister">
+    <script type="module" src="/views/public/js/scriptLogin.js"></script>
+</body>
+
+</html>
